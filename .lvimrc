@@ -1,0 +1,1 @@
+nmap <silent> gom :Dispatch make -f scripts/Makefile build-linux<CR>

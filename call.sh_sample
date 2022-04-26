@@ -1,0 +1,6 @@
+# endpointはiotのエンドポイント
+./app \
+    -pem ./cert_sandbox_uswest_2/awsRootCa.pem \
+    -crt ./cert_sandbox_uswest_2/certificate.pem.crt \
+    -key ./cert_sandbox_uswest_2/private.pem.key \
+    -endpoint ssl://***.us-west-2.amazonaws.com:8883 \
